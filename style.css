@@ -49,7 +49,6 @@ a:hover {
 .nav-link {
     color: #fff;
 }
-
 .fondo {
     background-color: rgba(0, 0, 0, 0.3) !important;
     transition: background-color 1s;
@@ -230,7 +229,6 @@ ul {
     padding: 0;
     margin: 0;
   }
-
 label {
     /* Tamaño y alineación uniforme */
     display: inline-block;
@@ -246,8 +244,7 @@ textarea {
     box-sizing: border-box;
     background-color: transparent;
     border: none;
-    border-bottom: 1px solid rgba(153, 153, 153, 0.5) ;
-    
+    border-bottom: 1px solid rgba(153, 153, 153, 0.5) ;    
   }
 input:focus,
 textarea:focus {
@@ -267,13 +264,10 @@ textarea {
     border-radius: 30px !important;
     border: none;
 }
-
 button:focus {
     outline: 1px dotted;
     outline: 0px auto -webkit-focus-ring-color !important;
 }
-
-
 /*FOOTER*/
 .footer {
 width: 100%;

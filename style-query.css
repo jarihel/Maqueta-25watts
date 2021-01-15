@@ -48,7 +48,7 @@
         margin-top: 3em;
     }
 }
-
+/*QUERY 769*/
 @media (max-width:769px){
     /*UTILIDADES*/
     .ro-16-m{
@@ -107,6 +107,7 @@
         width: 90%;
     }
 }
+/*QUERY 426*/
 @media (max-width:426px){
    .ro-16-m{
         font-family: 'Roboto';
