@@ -1,0 +1,296 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="style-query.css">
+  <!--BOOTSTRAP-->
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css"
+    integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+  <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+    integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+    crossorigin="anonymous"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js"
+    integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49"
+    crossorigin="anonymous"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js"
+    integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy"
+    crossorigin="anonymous"></script>
+  <!--JQUERY-->
+  <script src="https://code.jquery.com/jquery-3.5.1.js" integrity="sha256-QWo7LDvxbWT2tbbQ97B53yJnYU3WhH/C8ycbRAkjPDc="
+    crossorigin="anonymous"></script>
+
+  <!--GOOGLE FONTS-->
+  <!--POPPINS-->
+  <link rel="preconnect" href="https://fonts.gstatic.com">
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@600&display=swap" rel="stylesheet">
+  <!--ROBOTO-->
+  <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
+
+
+  <title>Document</title>
+</head>
+
+<body>
+  <!--NAVBAR-->
+  <nav class="navbar fixed-top navbar-expand-sm  py-0">
+    <a class="navbar-brand" href="#">
+      <img src="./img/logo_25w.svg" alt="25Watts">
+    </a>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
+      aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+
+    <div class="collapse navbar-collapse " id="navbarSupportedContent">
+      <ul class="navbar-nav ml-auto ">
+        <li class="nav-item v-align nav-100 py-1">
+          <a class="nav-link py-1 ro-16-c" href="#">Home <span class="sr-only">(current)</span></a>
+        </li>
+        <li class="nav-item v-align nav-100 py-1">
+          <a class="nav-link p-auto py-1 ro-16-c" href="#about">About</a>
+        </li>
+        <li class="nav-item v-align nav-100 py-1">
+          <a class="nav-link py-1 ro-16-cr" href="#services">Services</a>
+        </li>
+        <li class="nav-item v-align nav-100 py-1">
+          <a class="nav-link py-1 ro-16-c" href="#product">Product</a>
+        </li>
+        <li class="nav-item v-align nav-100 py-1">
+          <a class="nav-link py-1 ro-16-c" href="#contact">Contact</a>
+        </li>
+      </ul>
+
+    </div>
+
+  </nav>
+  <hr class="linea m-0 p-0 ">
+  <!--SLIDER-->
+  <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
+
+    <div class="carousel-inner">
+
+      <div class="carousel-item s1 active">
+        <div class="slider-inner d-block">
+          <h5 class="text-white pop-48">Sed ut perspiciatis unde omnis iste natus</h5>
+          <p class="ro-16-r text-white mb-5">Ut enim ad minima veniam, quis nostrum exercitationem ullam corporis
+            suscipit</p>
+          <button class="slide-button ro-16-m text-white">Read more</button>
+        </div>
+      </div>
+      <div class="carousel-item s2 ">
+        <div class="slider-inner">
+          <h5 class="text-white pop-48">Sed ut perspiciatis unde omnis iste natus</h5>
+          <p class="text-white ro-16-r mb-5">Ut enim ad minima veniam, quis nostrum exercitationem ullam corporis
+            suscipit</p>
+          <button class="slide-button text-white ro-16-m">Read more</button>
+        </div>
+      </div>
+      <div class="carousel-item s3">
+        <div class="slider-inner">
+          <h5 class="text-white pop-48">Sed ut perspiciatis unde omnis iste natus</h5>
+          <p class="text-white ro-16-r mb-5">Ut enim ad minima veniam, quis nostrum exercitationem ullam corporis
+            suscipit</p>
+          <button class="slide-button text-white ro-16-m">Read more</button>
+        </div>
+      </div>
+      <ol class="carousel-indicators mx-0">
+        <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
+        <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
+        <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
+      </ol>
+    </div>
+    <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
+      <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+      <span class="sr-only">Previous</span>
+    </a>
+    <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
+      <span class="carousel-control-next-icon" aria-hidden="true"></span>
+      <span class="sr-only">Next</span>
+    </a>
+  </div>
+  <!--TARJETAS-->
+  <div class="container">
+    <div class="row">
+      <div class=" tarjeta col-sm d-block v-align text-center mx-2">
+        <img class="tarjeta-img" src="./img/icon-awesome-globe-americas.svg" alt="">
+        <p class="pop-21">Stet clita kasd agdim</p>
+      </div>
+      <div class=" tarjeta col-sm d-block v-align text-center mx-2">
+        <img class="tarjeta-img" src="./img/Icon-awesome-cloud-upload-alt.svg" alt="">
+        <p class="pop-21">Atvero eos et quis</p>
+      </div>
+      <div class=" tarjeta col-sm d-block v-align text-center mx-2">
+        <img class="tarjeta-img" src="./img/Icon-awesome-headset.svg" alt="">
+        <p class="pop-21">Sed ut perspiciatis</p>
+      </div>
+      <div class=" tarjeta col-sm d-block v-align text-center mx-2">
+        <img class="tarjeta-img" src="./img/Icon-awesome-user-friends.svg" alt="">
+        <p class="pop-21">Lorem ipsum dolor sit</p>
+      </div>
+    </div>
+  </div>
+  <!--SECCION ABOUT-->
+  <div class="sec-bussines v-align" id="about">
+    <div class="sec-bussines-inner w-100 v-align ">
+      <div class="my-auto">
+        <h5 class="pop-39 text-black">We Help Businesses</h5>
+        <h5 class="pop-39 text-orange mb-4">Grow and Innovate</h5>
+        <p class="ro-16-r">Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor
+          invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo
+          dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet. Lorem
+          ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore
+          magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita
+          kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet, consetetur
+          sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut</p>
+      </div>
+    </div>
+  </div>
+  <!--SECCION SERVICES-->
+  <div class="sec-slide2 v-align" id="services">
+    <div class="sec-slide2-inner mx-auto">
+      <div id="carouselExampleControls" class="carousel slide slider2" data-ride="">
+        <div class=" slider2-inner">
+          <div class="carousel-inner ">
+            <div class="carousel-item  active">
+              <h5 class="text-white ro-16-m">Sed ut perspiciatis</h5>
+              <h5 class="text-white pop-39-m">Nemo Enim</h5>
+              <p class="text-white ro-16-r">Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium
+                doloremque laudantium, totam rem aperiam.</p>
+            </div>
+            <div class="carousel-item ">
+              <h5 class="text-white ro-16-m">Sed ut perspiciatis</h5>
+              <h5 class="text-white pop-39-m">Nemo Enim</h5>
+              <p class="text-white ro-16-r">Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium
+                doloremque laudantium, totam rem aperiam.</p>
+            </div>
+            <div class="carousel-item ">
+              <h5 class="text-white ro-16-m">Sed ut perspiciatis</h5>
+              <h5 class="text-white pop-39-m">Nemo Enim</h5>
+              <p class="text-white ro-16-r">Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium
+                doloremque laudantium, totam rem aperiam.</p>
+            </div>
+
+            <a class="carousel-control-next botones" href="#carouselExampleControls" role="button" data-slide="next">
+              <span class="carousel-control-next-icon" aria-hidden="true"></span>
+              <span class="sr-only">Proximo</span>
+            </a>
+            <a class="carousel-control-prev botones" href="#carouselExampleControls" role="button" data-slide="prev">
+              <span class="carousel-control-prev-icon " aria-hidden="true"></span>
+              <span class="sr-only">Anterior</span>
+            </a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <!--SECCION 5-->
+  <div class="sec-5 v-align" id="product">
+    <div class="sec-5-1">
+      <div id="accordion">
+        <div class="card">
+          <div class="card-header p-0" id="headingOne">
+            <h5 class="mb-0">
+              <button class="btn-link ro-16-m" data-toggle="collapse" data-target="#collapseOne" aria-expanded="true"
+                aria-controls="collapseOne">
+                Sed ut perspiciatis
+              </button>
+            </h5>
+          </div>
+
+          <div id="collapseOne" class="collapse show" aria-labelledby="headingOne" data-parent="#accordion">
+            <div class="card-body ro-16-m">
+              Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore
+              et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum.
+              Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet.
+            </div>
+          </div>
+        </div>
+        <div class="card">
+          <div class="card-header p-0" id="headingTwo">
+            <h5 class="mb-0">
+              <button class="btn-link collapsed ro-16-m" data-toggle="collapse" data-target="#collapseTwo"
+                aria-expanded="false" aria-controls="collapseTwo">
+                Sed ut perspiciatis
+              </button>
+            </h5>
+          </div>
+          <div id="collapseTwo" class="collapse" aria-labelledby="headingTwo" data-parent="#accordion">
+            <div class="card-body ro-16-m">
+              Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore
+              et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum.
+              Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet.
+            </div>
+          </div>
+        </div>
+        <div class="card">
+          <div class="card-header p-0" id="headingThree">
+            <h5 class="mb-0">
+              <button class="btn-link collapsed ro-16-m" data-toggle="collapse" data-target="#collapseThree"
+                aria-expanded="false" aria-controls="collapseThree">
+                Sed ut perspiciatis
+              </button>
+            </h5>
+          </div>
+          <div id="collapseThree" class="collapse" aria-labelledby="headingThree" data-parent="#accordion">
+            <div class="card-body ro-16-m">
+              Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore
+              et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum.
+              Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet.
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="sec-5-2">
+    </div>
+  </div>
+  <!--FORMULARIO-->
+  <div class="cat-form v-align" id="contact">
+    <div class="cat-form-1">
+      <form method="post" id="formulario-contacto" role="form" autocomplete="off">
+        <h5 class="tit-form pop-39">Get in touch</h5>
+        <h5 class="tit-form-2 text-orange pop-39">We are hiring!</h5>
+
+        <div class="form-group has-success">
+          <input class="" type="text" name="nombre" placeholder="Nombre" />
+          <span id="error" class="help-block"></span>
+        </div>
+        <div class="form-group has-error">
+          <input class="" type="email" name="email" placeholder="Correo electrónico" />
+          <span id="error" class="help-block"></span>
+        </div>
+        <div class="form-group">
+          <textarea class="" rows="14" name="mensaje" placeholder="Mensaje"></textarea>
+          <span id="error" class="help-block"></span>
+        </div>
+        <div class="form-group">
+          <button class=" button ro-16-m text-white" type="submit">Enviar </button>
+        </div>
+      </form>
+    </div>
+    <div class="cat-form-2">
+      <img class="form-img" src="./img/image2.png" alt="Contact">
+    </div>
+  </div>
+  <!--FOOTER-->
+  <footer class="footer">
+    <div>
+      <div class="row">
+        <div class=" col-11 footer-inner">
+          <h5 class="text-white ro-16-m">2020 © All rights reserved.</h5>
+        </div>
+        <div class="col-1">
+          <img class="fot-img" src="./img/logo_25w.svg" alt="" srcset="">
+        </div>
+      </div>
+    </div>
+  </footer>
+  <script src="https://cdn.jsdelivr.net/npm/jquery-validation@1.19.3/dist/jquery.validate.js"></script>
+  <script src="index.js"></script>
+  <script src="validator.js"></script>
+</body>
+
+</html>
